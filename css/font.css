@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: 100;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-ThinItalic.ttf);
@@ -18,6 +19,7 @@
   font-style: normal;
   font-weight: 200;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-UltraLightItalic.ttf);
@@ -31,6 +33,7 @@
   font-style: normal;
   font-weight: 300;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-LightItalic.ttf);
@@ -44,6 +47,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-RegularItalic.ttf);
@@ -57,6 +61,7 @@
   font-style: normal;
   font-weight: 500;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-MediumItalic.ttf);
@@ -70,6 +75,7 @@
   font-style: normal;
   font-weight: 600;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-SemiBoldItalic.ttf);
@@ -83,6 +89,7 @@
   font-style: normal;
   font-weight: 700;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-BoldItalic.ttf);
@@ -96,6 +103,7 @@
   font-style: normal;
   font-weight: 800;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-ExtraBoldItalic.ttf);
@@ -109,6 +117,7 @@
   font-style: normal;
   font-weight: 900;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-BlackItalic.ttf);
@@ -122,6 +131,7 @@
   font-style: normal;
   font-weight: 1000;
 }
+
 @font-face {
   font-family: 'Gilroy';
   src: url(../assets/font/Gilroy/Gilroy-HeavyItalic.ttf);
@@ -142,6 +152,7 @@
   font-style: normal;
   font-weight: 200;
 }
+
 @font-face {
   font-family: 'PP Mori';
   src: url(../assets/font/PPMori/PPMori-ExtralightItalic.otf);
@@ -155,6 +166,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: 'PP Mori';
   src: url(../assets/font/PPMori/PPMori-RegularItalic.otf);
@@ -168,9 +180,26 @@
   font-style: normal;
   font-weight: 600;
 }
+
 @font-face {
   font-family: 'PP Mori';
   src: url(../assets/font/PPMori/PPMori-SemiBoldItalic.otf);
   font-style: italic;
   font-weight: 600;
 }
+
+/* Font - PP Mori */
+
+
+
+
+
+/* Font - Suisse Intl */
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url(../assets/font/SuisseIntl/SuisseIntl-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Font - Suisse Intl */
