@@ -24,8 +24,20 @@ body::-webkit-scrollbar {
 main {
   background-color: #0F0D0D;
   color: #fff;
+  position: relative;
 }
 
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #edbfff;
+  z-index: 8;
+  mix-blend-mode: difference;
+  transition: all 0.2s cubic-bezier(0, 0, 0.83, 0.96);
+  pointer-events: none;
+}
 
 
 /* Inicio - Barra de Navegação Principal */
@@ -77,6 +89,8 @@ ul#menu-list {
 section#page-1 {
   width: 100%;
   min-height: 100vh;
+  position: relative;
+  z-index: 9;
 }
 
 
@@ -115,6 +129,8 @@ section#page-2 {
   transition: background .2s ease-in-out, color .2s ease-in-out;
   padding: calc(calc(min(8vw, 153px)) * 1.5) 0 calc(min(8vw, 153px));
   border-bottom: 1px solid #0f0d0d;
+  position: relative;
+  z-index: 9;
 }
 
 #page-2 .title-container>h2 {
@@ -262,3 +278,65 @@ section#page-2 {
 }
 
 /* Fim - pagina 2 */
+
+
+
+
+/* Inicio - pagina 3 */
+section#page-3 {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #0f0d0d;
+  position: relative;
+  z-index: 9;
+}
+
+#page-3>h1 {
+  font-family: 'PP Mori';
+  font-size: 6.8vw;
+  font-weight: 400;
+  color: #0F0D0D;
+}
+
+#page-3 .containerWork>article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#page-3 .containerWork>article:nth-child(1) img {
+  height: 600px;
+  margin-top: 180px;
+}
+
+/* Fim - pagina 3 */
+
+
+
+
+/* Inicio - pagina 4 */
+section#page-4 {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: red; */
+  position: relative;
+  z-index: 9;
+}
+
+/* Fim - pagina 4 */
+
+
+
+/* Inicio - pagina 5 */
+section#page-5 {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: red; */
+  position: relative;
+  z-index: 9;
+}
+
+/* Fim - pagina 5 */
